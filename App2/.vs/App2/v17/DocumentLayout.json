@@ -1,21 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\cher3\\source\\repos\\App2\\",
+  "WorkspaceRootPath": "C:\\Users\\cher3\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\linphone_example\\App2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3C4ED726-6B2A-41E2-B08C-00E0978240B5}|App2\\App2.csproj|c:\\users\\cher3\\source\\repos\\app2\\app2\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C4ED726-6B2A-41E2-B08C-00E0978240B5}|App2\\App2.csproj|solutionrelative:app2\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C4ED726-6B2A-41E2-B08C-00E0978240B5}|App2\\App2.csproj|c:\\users\\cher3\\source\\repos\\app2\\app2\\service\\coreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3C4ED726-6B2A-41E2-B08C-00E0978240B5}|App2\\App2.csproj|C:\\Users\\cher3\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\linphone_example\\App2\\app2\\service\\coreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3C4ED726-6B2A-41E2-B08C-00E0978240B5}|App2\\App2.csproj|solutionrelative:app2\\service\\coreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C4ED726-6B2A-41E2-B08C-00E0978240B5}|App2\\App2.csproj|c:\\users\\cher3\\source\\repos\\app2\\app2\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{3C4ED726-6B2A-41E2-B08C-00E0978240B5}|App2\\App2.csproj|c:\\users\\cher3\\onedrive\\\uBC14\uD0D5 \uD654\uBA74\\linphone_example\\app2\\app2\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C4ED726-6B2A-41E2-B08C-00E0978240B5}|App2\\App2.csproj|solutionrelative:app2\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C4ED726-6B2A-41E2-B08C-00E0978240B5}|App2\\App2.csproj|C:\\Users\\cher3\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\linphone_example\\App2\\app2\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{3C4ED726-6B2A-41E2-B08C-00E0978240B5}|App2\\App2.csproj|solutionrelative:app2\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C4ED726-6B2A-41E2-B08C-00E0978240B5}|App2\\App2.csproj|c:\\users\\cher3\\source\\repos\\app2\\app2\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3C4ED726-6B2A-41E2-B08C-00E0978240B5}|App2\\App2.csproj|c:\\users\\cher3\\onedrive\\\uBC14\uD0D5 \uD654\uBA74\\linphone_example\\app2\\app2\\package.appxmanifest||{4D47164B-07B6-4A52-A855-728D6A2E2AA3}",
+      "RelativeMoniker": "D:0:0:{3C4ED726-6B2A-41E2-B08C-00E0978240B5}|App2\\App2.csproj|solutionrelative:app2\\package.appxmanifest||{4D47164B-07B6-4A52-A855-728D6A2E2AA3}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C4ED726-6B2A-41E2-B08C-00E0978240B5}|App2\\App2.csproj|C:\\Users\\cher3\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\linphone_example\\App2\\app2\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3C4ED726-6B2A-41E2-B08C-00E0978240B5}|App2\\App2.csproj|solutionrelative:app2\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,15 +30,27 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Package.appxmanifest",
+              "DocumentMoniker": "C:\\Users\\cher3\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\linphone_example\\App2\\App2\\Package.appxmanifest",
+              "RelativeDocumentMoniker": "App2\\Package.appxmanifest",
+              "ToolTip": "C:\\Users\\cher3\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\linphone_example\\App2\\App2\\Package.appxmanifest",
+              "RelativeToolTip": "App2\\Package.appxmanifest",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001793|",
+              "WhenOpened": "2024-08-07T16:46:29.334Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\Users\\cher3\\source\\repos\\App2\\App2\\MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\cher3\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\linphone_example\\App2\\App2\\MainPage.xaml",
               "RelativeDocumentMoniker": "App2\\MainPage.xaml",
-              "ToolTip": "C:\\Users\\cher3\\source\\repos\\App2\\App2\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\cher3\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\linphone_example\\App2\\App2\\MainPage.xaml",
               "RelativeToolTip": "App2\\MainPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-08-07T15:56:48.279Z",
@@ -42,41 +58,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\cher3\\source\\repos\\App2\\App2\\MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\cher3\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\linphone_example\\App2\\App2\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "App2\\MainPage.xaml.cs",
-              "ToolTip": "C:\\Users\\cher3\\source\\repos\\App2\\App2\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\cher3\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\linphone_example\\App2\\App2\\MainPage.xaml.cs",
               "RelativeToolTip": "App2\\MainPage.xaml.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAAACYAAAA0AAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAACMAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-07T15:55:35.734Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\cher3\\source\\repos\\App2\\App2\\App.xaml.cs",
-              "RelativeDocumentMoniker": "App2\\App.xaml.cs",
-              "ToolTip": "C:\\Users\\cher3\\source\\repos\\App2\\App2\\App.xaml.cs",
-              "RelativeToolTip": "App2\\App.xaml.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAIwDsAAAAoAAAA",
+              "DocumentIndex": 0,
+              "Title": "CoreService.cs",
+              "DocumentMoniker": "C:\\Users\\cher3\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\linphone_example\\App2\\App2\\Service\\CoreService.cs",
+              "RelativeDocumentMoniker": "App2\\Service\\CoreService.cs",
+              "ToolTip": "C:\\Users\\cher3\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\linphone_example\\App2\\App2\\Service\\CoreService.cs",
+              "RelativeToolTip": "App2\\Service\\CoreService.cs",
+              "ViewState": "AQIAAIAAAAAAAAAAAAAuwJoAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T15:52:00.077Z",
+              "WhenOpened": "2024-08-07T15:51:11.508Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CoreService.cs",
-              "DocumentMoniker": "C:\\Users\\cher3\\source\\repos\\App2\\App2\\Service\\CoreService.cs",
-              "RelativeDocumentMoniker": "App2\\Service\\CoreService.cs",
-              "ToolTip": "C:\\Users\\cher3\\source\\repos\\App2\\App2\\Service\\CoreService.cs",
-              "RelativeToolTip": "App2\\Service\\CoreService.cs",
-              "ViewState": "AQIAAKoAAAAAAAAAAAASwL0AAAAMAAAA",
+              "DocumentIndex": 4,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\cher3\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\linphone_example\\App2\\App2\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App2\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\cher3\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\linphone_example\\App2\\App2\\App.xaml.cs",
+              "RelativeToolTip": "App2\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADsAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T15:51:11.508Z",
+              "WhenOpened": "2024-08-07T15:52:00.077Z",
               "EditorCaption": ""
             }
           ]

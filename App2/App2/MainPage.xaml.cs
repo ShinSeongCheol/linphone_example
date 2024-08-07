@@ -32,16 +32,8 @@ namespace App2
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            var audioDevice = CoreService.Core.ExtendedAudioDevices;
-            foreach (var item in audioDevice)
-            { 
-                Debug.WriteLine(item.DeviceName);
-                if(item.DeviceName.Contains("스테레오 믹스"))
-                {
-                    CoreService.Core.DefaultInputAudioDevice = item;
-                }
-            }
-            CoreService.Call("sip:192.168.1.133");
+            CoreService.getAudioDevices();
+            //CoreService.Call("sip:192.168.1.133");
         }
     }
 }

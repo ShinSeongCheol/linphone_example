@@ -19,6 +19,8 @@
 
 using Linphone;
 using System;
+using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Threading;
 using System.Threading.Tasks;
@@ -98,27 +100,6 @@ namespace _03_OutgoingCall.Service
             });
         }
 
-        public void AddOnAccountRegistrationStateChangedDelegate(OnAccountRegistrationStateChangedDelegate myDelegate)
-        {
-            Core.Listener.OnAccountRegistrationStateChanged += myDelegate;
-        }
-
-        public void RemoveOnAccountRegistrationStateChangedDelegate(OnAccountRegistrationStateChangedDelegate myDelegate)
-        {
-            Core.Listener.OnAccountRegistrationStateChanged -= myDelegate;
-        }
-
-        public void AddOnCallStateChangedDelegate(OnCallStateChangedDelegate myDelegate)
-        {
-            Core.Listener.OnCallStateChanged += myDelegate;
-        }
-
-        public void RemoveOnCallStateChangedDelegate(OnCallStateChangedDelegate myDelegate)
-        {
-            Core.Listener.OnCallStateChanged -= myDelegate;
-        }
-
-
         /// <summary>
         /// Make a call.
         /// </summary>
@@ -134,48 +115,18 @@ namespace _03_OutgoingCall.Service
             // or phone number only.
             Address address = Core.InterpretUrl(uriToCall);
 
+            var audioDevice = Core.ExtendedAudioDevices;
+            foreach (var item in audioDevice)
+            {
+                Debug.WriteLine(item.DeviceName);
+                if (item.DeviceName.Contains("스테레오 믹스"))
+                {
+                    Core.DefaultInputAudioDevice = item;
+                }
+            }
+
             // Initiate an outgoing call to the given destination Address.
             Core.InviteAddress(address);
-        }
-
-        public bool ToggleMic()
-        {
-            return Core.MicEnabled = !Core.MicEnabled;
-        }
-
-        public bool ToggleSpeaker()
-        {
-            return Core.CurrentCall.SpeakerMuted = !Core.CurrentCall.SpeakerMuted;
-        }
-
-        /// <summary>
-        /// Ask the peer of the current call to enable/disable the video call.
-        /// </summary>
-        public async Task<bool> ToggleCameraAsync()
-        {
-            await OpenCameraPopup();
-
-            // Retrieving the current call
-            Call call = Core.CurrentCall;
-
-            // Core.createCallParams(call) create CallParams matching the Call parameters,
-            // here the current call. CallParams contains a variety of parameters like
-            // audio bandwidth limit, media encryption type...< And if the video is enable
-            // or not.
-            CallParams param = core.CreateCallParams(call);
-
-            // Switch the current VideoEnableValue
-            bool newValue = !param.VideoEnabled;
-            param.VideoEnabled = newValue;
-            param.VideoDirection = MediaDirection.RecvOnly;
-
-            // Try to update the call parameters with those new CallParams.
-            // If the video switched from true to false the peer can't refuse to disable the video.
-            // If the video switched from false to true and the peer doesn't have videoActivationPolicy.AutomaticallyAccept = true
-            // you have to wait for them to accept the update. The Call status is "Updating" during this time.
-            call.Update(param);
-
-            return newValue;
         }
 
         public async Task OpenMicrophonePopup()
@@ -191,21 +142,20 @@ namespace _03_OutgoingCall.Service
             audioGraph.Dispose();
         }
 
-        private async Task OpenCameraPopup()
+        public void getAudioDevices()
         {
-            MediaCapture mediaCapture = new MediaCapture();
-            try
+            IEnumerable<AudioDevice> audioDevices = Core.ExtendedAudioDevices;
+            foreach (var audioDevice in audioDevices)
             {
-                await mediaCapture.InitializeAsync(new MediaCaptureInitializationSettings
+                if(audioDevice.Capabilities == AudioDeviceCapabilities.CapabilityPlay)
                 {
-                    StreamingCaptureMode = StreamingCaptureMode.Video
-                });
+                    Debug.WriteLine($"스피커 : {audioDevice.DeviceName}");
+                }else if (audioDevice.Capabilities == AudioDeviceCapabilities.CapabilityRecord)
+                {
+                    Debug.WriteLine($"마이크 : {audioDevice.DeviceName}");
+                }
             }
-            catch (Exception e) when (e.Message.StartsWith("No capture devices are available."))
-            {
-                // Ignored. You can ask the remote party for video even if you don't have a camera.
-            }
-            mediaCapture.Dispose();
         }
+
     }
 }

@@ -33,6 +33,7 @@
   <Capabilities>
     <Capability Name="internetClient" />
     <DeviceCapability Name="microphone" />
+    <DeviceCapability Name="lowLevel" />
   </Capabilities>
   <Extensions>
     <Extension Category="windows.activatableClass.inProcessServer">
