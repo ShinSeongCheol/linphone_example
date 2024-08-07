@@ -1,0 +1,1148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>OMO</Machine>
+    <WindowsUser>cher3</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>4b0f0bcf-7e02-44cc-810c-045290245c32</PackageIdentityName>
+    <PackageIdentityPublisher>CN=cher3</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\cher3\source\repos\App2\App2\obj\x64\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\cher3\source\repos\App2\App2\bin\x64\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>50666E7000F976C2177E96BF3E250054503D84E770DF9542995E061723EF12F3</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>4b0f0bcf-7e02-44cc-810c-045290245c32_1.0.0.0_x64__35svh28f91h90</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>4b0f0bcf-7e02-44cc-810c-045290245c32_35svh28f91h90!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>4b0f0bcf-7e02-44cc-810c-045290245c32</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=cher3</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\cher3\source\repos\App2\App2\bin\x64\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-08-07T16:06:50.087</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\cher3\source\repos\App2\App2\bin\x64\Debug\App2.exe">
+      <PackagePath>entrypoint\App2.exe</PackagePath>
+      <Modified>2024-08-07T16:06:49.517</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.14\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+      <Modified>2022-06-10T13:23:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\lib\uap10.0\x64\CsWrapper.dll">
+      <PackagePath>CsWrapper.dll</PackagePath>
+      <Modified>2022-12-06T20:41:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\lib\uap10.0\x64\bctoolbox-tester.dll">
+      <PackagePath>bctoolbox-tester.dll</PackagePath>
+      <Modified>2022-12-06T20:16:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\lib\uap10.0\x64\bctoolbox.dll">
+      <PackagePath>bctoolbox.dll</PackagePath>
+      <Modified>2022-12-06T20:15:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\lib\uap10.0\x64\bcunit.dll">
+      <PackagePath>bcunit.dll</PackagePath>
+      <Modified>2022-12-06T20:06:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\lib\uap10.0\x64\belcard.dll">
+      <PackagePath>belcard.dll</PackagePath>
+      <Modified>2022-12-06T20:20:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\lib\uap10.0\x64\BelledonneCommunications.BelleSip.Tester.dll">
+      <PackagePath>BelledonneCommunications.BelleSip.Tester.dll</PackagePath>
+      <Modified>2022-12-06T20:21:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\lib\uap10.0\x64\BelledonneCommunications.Linphone.Tester.dll">
+      <PackagePath>BelledonneCommunications.Linphone.Tester.dll</PackagePath>
+      <Modified>2022-12-06T20:40:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\lib\uap10.0\x64\BelledonneCommunications.Mediastreamer2.Tester.dll">
+      <PackagePath>BelledonneCommunications.Mediastreamer2.Tester.dll</PackagePath>
+      <Modified>2022-12-06T20:23:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\lib\uap10.0\x64\bellesip.dll">
+      <PackagePath>bellesip.dll</PackagePath>
+      <Modified>2022-12-06T20:20:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\lib\uap10.0\x64\belr.dll">
+      <PackagePath>belr.dll</PackagePath>
+      <Modified>2022-12-06T20:17:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\lib\uap10.0\x64\bv16.dll">
+      <PackagePath>bv16.dll</PackagePath>
+      <Modified>2022-12-06T20:06:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\lib\uap10.0\x64\bzrtp.dll">
+      <PackagePath>bzrtp.dll</PackagePath>
+      <Modified>2022-12-06T20:19:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\lib\uap10.0\x64\decaf.dll">
+      <PackagePath>decaf.dll</PackagePath>
+      <Modified>2022-12-06T20:07:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\lib\uap10.0\x64\gsm.dll">
+      <PackagePath>gsm.dll</PackagePath>
+      <Modified>2022-12-06T20:06:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\lib\uap10.0\x64\jpeg62.dll">
+      <PackagePath>jpeg62.dll</PackagePath>
+      <Modified>2022-12-06T20:10:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\lib\uap10.0\x64\jsoncpp.dll">
+      <PackagePath>jsoncpp.dll</PackagePath>
+      <Modified>2022-12-06T20:08:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\lib\uap10.0\x64\liblinphone.dll">
+      <PackagePath>liblinphone.dll</PackagePath>
+      <Modified>2022-12-06T20:39:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\lib\uap10.0\x64\lime.dll">
+      <PackagePath>lime.dll</PackagePath>
+      <Modified>2022-12-06T20:24:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\lib\uap10.0\x64\mbedcrypto.dll">
+      <PackagePath>mbedcrypto.dll</PackagePath>
+      <Modified>2022-12-06T20:06:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\lib\uap10.0\x64\mbedtls.dll">
+      <PackagePath>mbedtls.dll</PackagePath>
+      <Modified>2022-12-06T20:07:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\lib\uap10.0\x64\mbedx509.dll">
+      <PackagePath>mbedx509.dll</PackagePath>
+      <Modified>2022-12-06T20:07:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\lib\uap10.0\x64\mediastreamer.dll">
+      <PackagePath>mediastreamer.dll</PackagePath>
+      <Modified>2022-12-06T20:23:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\lib\uap10.0\x64\mediastreamer\plugins\libmswasapi.dll">
+      <PackagePath>libmswasapi.dll</PackagePath>
+      <Modified>2022-12-06T20:25:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\lib\uap10.0\x64\mediastreamer\plugins\libmswebrtc.dll">
+      <PackagePath>libmswebrtc.dll</PackagePath>
+      <Modified>2022-12-06T20:25:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\lib\uap10.0\x64\ortp.dll">
+      <PackagePath>ortp.dll</PackagePath>
+      <Modified>2022-12-06T20:18:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\lib\uap10.0\x64\soci_core_4_0.dll">
+      <PackagePath>soci_core_4_0.dll</PackagePath>
+      <Modified>2022-12-06T20:12:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\lib\uap10.0\x64\soci_sqlite3_4_0.dll">
+      <PackagePath>soci_sqlite3_4_0.dll</PackagePath>
+      <Modified>2022-12-06T20:12:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\lib\uap10.0\x64\speex.dll">
+      <PackagePath>speex.dll</PackagePath>
+      <Modified>2022-12-06T20:09:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\lib\uap10.0\x64\speexdsp.dll">
+      <PackagePath>speexdsp.dll</PackagePath>
+      <Modified>2022-12-06T20:09:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\lib\uap10.0\x64\sqlite3.dll">
+      <PackagePath>sqlite3.dll</PackagePath>
+      <Modified>2022-12-06T20:06:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\lib\uap10.0\x64\srtp2.dll">
+      <PackagePath>srtp2.dll</PackagePath>
+      <Modified>2022-12-06T20:10:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\lib\uap10.0\x64\turbojpeg.dll">
+      <PackagePath>turbojpeg.dll</PackagePath>
+      <Modified>2022-12-06T20:10:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\lib\uap10.0\x64\xerces-c.dll">
+      <PackagePath>xerces-c.dll</PackagePath>
+      <Modified>2022-12-06T20:19:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\lib\uap10.0\x64\xml2.dll">
+      <PackagePath>xml2.dll</PackagePath>
+      <Modified>2022-12-06T20:11:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\lib\uap10.0\x64\zlib.dll">
+      <PackagePath>zlib.dll</PackagePath>
+      <Modified>2022-12-06T20:07:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.22621.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
+      <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
+      <Modified>2024-02-21T11:52:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\BCunit\BCUnit-List.dtd">
+      <PackagePath>share\BCunit\BCUnit-List.dtd</PackagePath>
+      <Modified>2022-11-25T13:35:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\BCunit\BCUnit-Run.dtd">
+      <PackagePath>share\BCunit\BCUnit-Run.dtd</PackagePath>
+      <Modified>2022-11-25T13:35:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\BCunit\Memory-Dump.dtd">
+      <PackagePath>share\BCunit\Memory-Dump.dtd</PackagePath>
+      <Modified>2022-11-25T13:35:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\BCunit\BCUnit-List.xsl">
+      <PackagePath>share\BCunit\BCUnit-List.xsl</PackagePath>
+      <Modified>2022-11-25T13:35:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\BCunit\BCUnit-Run.xsl">
+      <PackagePath>share\BCunit\BCUnit-Run.xsl</PackagePath>
+      <Modified>2022-11-25T13:35:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\BCunit\Memory-Dump.xsl">
+      <PackagePath>share\BCunit\Memory-Dump.xsl</PackagePath>
+      <Modified>2022-11-25T13:35:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\belcard_tester\vcards\foldtest.vcf">
+      <PackagePath>share\belcard_tester\vcards\foldtest.vcf</PackagePath>
+      <Modified>2022-11-25T13:35:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\belcard_tester\vcards\unfoldtest.vcf">
+      <PackagePath>share\belcard_tester\vcards\unfoldtest.vcf</PackagePath>
+      <Modified>2022-11-25T13:35:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\belcard_tester\vcards\vcard.vcf">
+      <PackagePath>share\belcard_tester\vcards\vcard.vcf</PackagePath>
+      <Modified>2022-11-25T13:35:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\belcard_tester\vcards\vcards.vcf">
+      <PackagePath>share\belcard_tester\vcards\vcards.vcf</PackagePath>
+      <Modified>2022-11-25T13:35:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\vcards\thousand_vcards.vcf">
+      <PackagePath>share\liblinphone_tester\vcards\thousand_vcards.vcf</PackagePath>
+      <Modified>2022-11-25T13:36:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\vcards\vcards.vcf">
+      <PackagePath>share\liblinphone_tester\vcards\vcards.vcf</PackagePath>
+      <Modified>2022-11-25T13:36:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\belle_sip_tester\tester_hosts">
+      <PackagePath>share\belle_sip_tester\tester_hosts</PackagePath>
+      <Modified>2022-11-25T13:35:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\belr\grammars\cpim_grammar">
+      <PackagePath>share\belr\grammars\cpim_grammar</PackagePath>
+      <Modified>2022-11-25T13:36:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\belr\grammars\ics_grammar">
+      <PackagePath>share\belr\grammars\ics_grammar</PackagePath>
+      <Modified>2022-11-25T13:36:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\belr\grammars\identity_grammar">
+      <PackagePath>share\belr\grammars\identity_grammar</PackagePath>
+      <Modified>2022-11-25T13:36:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\belr\grammars\sdp_grammar">
+      <PackagePath>share\belr\grammars\sdp_grammar</PackagePath>
+      <Modified>2022-11-25T13:35:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\belr\grammars\vcard_grammar">
+      <PackagePath>share\belr\grammars\vcard_grammar</PackagePath>
+      <Modified>2022-11-25T13:35:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\local_tester_hosts">
+      <PackagePath>share\liblinphone_tester\local_tester_hosts</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\account_creator_flexiapi_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\account_creator_flexiapi_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\account_creator_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\account_creator_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\arthur_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\arthur_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\carddav_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\carddav_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\chloe_lime_x3dh_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\chloe_lime_x3dh_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\chloe_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\chloe_rc</PackagePath>
+      <Modified>2022-11-25T13:36:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\claire_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\claire_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\claire_sips_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\claire_sips_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\conference_focus_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\conference_focus_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\empty_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\empty_rc</PackagePath>
+      <Modified>2022-11-25T13:36:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\friends_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\friends_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\groupchat_lime_x3dh_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\groupchat_lime_x3dh_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\groupchat_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\groupchat_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\invalid_friends_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\invalid_friends_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\invalid_friends_xml">
+      <PackagePath>share\liblinphone_tester\rcfiles\invalid_friends_xml</PackagePath>
+      <Modified>2022-11-25T13:36:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\laure_call_logs_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\laure_call_logs_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\laure_lime_x3dh_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\laure_lime_x3dh_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\laure_rc_udp">
+      <PackagePath>share\liblinphone_tester\rcfiles\laure_rc_udp</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\laure_tcp_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\laure_tcp_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\lime_x3dh_xml_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\lime_x3dh_xml_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\marie2_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\marie2_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\marie_bodyless_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\marie_bodyless_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\marie_dependent_proxy_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\marie_dependent_proxy_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\marie_dtls_srtp_immediate_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\marie_dtls_srtp_immediate_rc</PackagePath>
+      <Modified>2022-11-25T13:36:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\marie_dual_proxy_2_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\marie_dual_proxy_2_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\marie_dual_proxy_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\marie_dual_proxy_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\marie_early_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\marie_early_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\marie_h264_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\marie_h264_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\marie_lime_x3dh_no_server_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\marie_lime_x3dh_no_server_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\marie_lime_x3dh_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\marie_lime_x3dh_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\marie_nat64_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\marie_nat64_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\marie_os_defined_rtp_ports_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\marie_os_defined_rtp_ports_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\marie_pauline_lime_x3dh_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\marie_pauline_lime_x3dh_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\marie_quality_reporting_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\marie_quality_reporting_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\marie_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\marie_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\marie_rc_rtcp_xr">
+      <PackagePath>share\liblinphone_tester\rcfiles\marie_rc_rtcp_xr</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\marie_remote_404_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\marie_remote_404_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\marie_remote_default_values_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\marie_remote_default_values_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\marie_remote_https_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\marie_remote_https_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\marie_remote_invalid_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\marie_remote_invalid_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\marie_remote_invalid_uri_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\marie_remote_invalid_uri_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\marie_remote_localfile2_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\marie_remote_localfile2_rc</PackagePath>
+      <Modified>2022-11-25T13:36:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\marie_remote_localfile_android_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\marie_remote_localfile_android_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\marie_remote_localfile_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\marie_remote_localfile_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\marie_remote_localfile_win10_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\marie_remote_localfile_win10_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\marie_remote_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\marie_remote_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\marie_rtp_port_range_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\marie_rtp_port_range_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\marie_session_timers_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\marie_session_timers_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\marie_sips_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\marie_sips_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\marie_transient_remote_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\marie_transient_remote_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\marie_v4proxy_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\marie_v4proxy_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\marie_well_known_port_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\marie_well_known_port_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\marie_zrtp_aes256_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\marie_zrtp_aes256_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\marie_zrtp_b256_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\marie_zrtp_b256_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\marie_zrtp_ecdh255_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\marie_zrtp_ecdh255_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\marie_zrtp_ecdh448_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\marie_zrtp_ecdh448_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\marie_zrtp_srtpsuite_aes256_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\marie_zrtp_srtpsuite_aes256_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\michelle_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\michelle_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\michelle_rc_udp">
+      <PackagePath>share\liblinphone_tester\rcfiles\michelle_rc_udp</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\multi_account_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\multi_account_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\pauline_alt_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\pauline_alt_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\pauline_as_friend_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\pauline_as_friend_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\pauline_dtls_srtp_immediate_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\pauline_dtls_srtp_immediate_rc</PackagePath>
+      <Modified>2022-11-25T13:36:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\pauline_external_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\pauline_external_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\pauline_h264_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\pauline_h264_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\pauline_lime_x3dh_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\pauline_lime_x3dh_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\pauline_nat64_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\pauline_nat64_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\pauline_os_defined_rtp_ports_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\pauline_os_defined_rtp_ports_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\pauline_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\pauline_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\pauline_rc_rtcp_xr">
+      <PackagePath>share\liblinphone_tester\rcfiles\pauline_rc_rtcp_xr</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\pauline_rtp_port_range_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\pauline_rtp_port_range_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\pauline_sips_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\pauline_sips_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\pauline_tcp_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\pauline_tcp_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\pauline_tls_client_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\pauline_tls_client_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\pauline_tunnel_verify_server_certificate_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\pauline_tunnel_verify_server_certificate_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\pauline_v4proxy_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\pauline_v4proxy_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\pauline_well_known_port_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\pauline_well_known_port_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\pauline_wild_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\pauline_wild_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\pauline_zrtp_aes256_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\pauline_zrtp_aes256_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\pauline_zrtp_b256_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\pauline_zrtp_b256_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\pauline_zrtp_ecdh255_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\pauline_zrtp_ecdh255_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\pauline_zrtp_ecdh448_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\pauline_zrtp_ecdh448_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\pauline_zrtp_srtpsuite_aes256_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\pauline_zrtp_srtpsuite_aes256_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\remote_zero_length_params_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\remote_zero_length_params_rc</PackagePath>
+      <Modified>2022-11-25T13:36:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\stun_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\stun_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\zero_length_params_rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\zero_length_params_rc</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\tester_hosts">
+      <PackagePath>share\liblinphone_tester\tester_hosts</PackagePath>
+      <Modified>2022-11-25T13:36:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\belr-tester\res\basicgrammar.txt">
+      <PackagePath>share\belr-tester\res\basicgrammar.txt</PackagePath>
+      <Modified>2022-11-25T13:35:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\belr-tester\res\register.txt">
+      <PackagePath>share\belr-tester\res\register.txt</PackagePath>
+      <Modified>2022-11-25T13:35:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\belr-tester\res\response.txt">
+      <PackagePath>share\belr-tester\res\response.txt</PackagePath>
+      <Modified>2022-11-25T13:35:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\belr-tester\res\sipgrammar.txt">
+      <PackagePath>share\belr-tester\res\sipgrammar.txt</PackagePath>
+      <Modified>2022-11-25T13:35:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\belr-tester\res\vcardgrammar.txt">
+      <PackagePath>share\belr-tester\res\vcardgrammar.txt</PackagePath>
+      <Modified>2022-11-25T13:35:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\doc\libjpeg-turbo\example.txt">
+      <PackagePath>share\doc\libjpeg-turbo\example.txt</PackagePath>
+      <Modified>2022-11-25T13:36:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\doc\libjpeg-turbo\libjpeg.txt">
+      <PackagePath>share\doc\libjpeg-turbo\libjpeg.txt</PackagePath>
+      <Modified>2022-11-25T13:36:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\doc\libjpeg-turbo\structure.txt">
+      <PackagePath>share\doc\libjpeg-turbo\structure.txt</PackagePath>
+      <Modified>2022-11-25T13:36:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\doc\libjpeg-turbo\usage.txt">
+      <PackagePath>share\doc\libjpeg-turbo\usage.txt</PackagePath>
+      <Modified>2022-11-25T13:36:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\doc\libjpeg-turbo\wizard.txt">
+      <PackagePath>share\doc\libjpeg-turbo\wizard.txt</PackagePath>
+      <Modified>2022-11-25T13:36:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\doc\ortp-5.1.0\LICENSE.txt">
+      <PackagePath>share\doc\ortp-5.1.0\LICENSE.txt</PackagePath>
+      <Modified>2022-12-06T20:04:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\version.txt">
+      <PackagePath>share\version.txt</PackagePath>
+      <Modified>2022-12-06T20:26:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\belr\grammars\belr-grammar-example.blr">
+      <PackagePath>share\belr\grammars\belr-grammar-example.blr</PackagePath>
+      <Modified>2022-11-25T13:35:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\doc\libjpeg-turbo\LICENSE.md">
+      <PackagePath>share\doc\libjpeg-turbo\LICENSE.md</PackagePath>
+      <Modified>2022-11-25T13:36:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\doc\libjpeg-turbo\README.md">
+      <PackagePath>share\doc\libjpeg-turbo\README.md</PackagePath>
+      <Modified>2022-11-25T13:36:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\doc\ortp-5.1.0\AUTHORS.md">
+      <PackagePath>share\doc\ortp-5.1.0\AUTHORS.md</PackagePath>
+      <Modified>2022-11-25T13:36:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\doc\ortp-5.1.0\CHANGELOG.md">
+      <PackagePath>share\doc\ortp-5.1.0\CHANGELOG.md</PackagePath>
+      <Modified>2022-12-06T20:04:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\doc\ortp-5.1.0\README.md">
+      <PackagePath>share\doc\ortp-5.1.0\README.md</PackagePath>
+      <Modified>2022-12-06T20:04:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\doc\libjpeg-turbo\README.ijg">
+      <PackagePath>share\doc\libjpeg-turbo\README.ijg</PackagePath>
+      <Modified>2022-11-25T13:36:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\doc\libjpeg-turbo\tjexample.c">
+      <PackagePath>share\doc\libjpeg-turbo\tjexample.c</PackagePath>
+      <Modified>2022-11-25T13:36:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\images\nowebcamCIF.jpg">
+      <PackagePath>share\images\nowebcamCIF.jpg</PackagePath>
+      <Modified>2022-11-25T13:36:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\images\linphonesiteqr.jpg">
+      <PackagePath>share\liblinphone_tester\images\linphonesiteqr.jpg</PackagePath>
+      <Modified>2022-11-25T13:36:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\images\linphonesiteqr_captured.jpg">
+      <PackagePath>share\liblinphone_tester\images\linphonesiteqr_captured.jpg</PackagePath>
+      <Modified>2022-11-25T13:36:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\images\nowebcamCIF.jpg">
+      <PackagePath>share\liblinphone_tester\images\nowebcamCIF.jpg</PackagePath>
+      <Modified>2022-11-25T13:36:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\images\nowebcamVGA.jpg">
+      <PackagePath>share\liblinphone_tester\images\nowebcamVGA.jpg</PackagePath>
+      <Modified>2022-11-25T13:36:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\certificates\altname\agent.pem">
+      <PackagePath>share\liblinphone_tester\certificates\altname\agent.pem</PackagePath>
+      <Modified>2022-11-25T13:36:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\certificates\altname\cafile.pem">
+      <PackagePath>share\liblinphone_tester\certificates\altname\cafile.pem</PackagePath>
+      <Modified>2022-11-25T13:36:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\certificates\client\cert.pem">
+      <PackagePath>share\liblinphone_tester\certificates\client\cert.pem</PackagePath>
+      <Modified>2022-11-25T13:36:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\certificates\client\cert2-signed-by-other-ca.pem">
+      <PackagePath>share\liblinphone_tester\certificates\client\cert2-signed-by-other-ca.pem</PackagePath>
+      <Modified>2022-11-25T13:36:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\certificates\client\cert2.pem">
+      <PackagePath>share\liblinphone_tester\certificates\client\cert2.pem</PackagePath>
+      <Modified>2022-11-25T13:36:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\certificates\client\cert3.pem">
+      <PackagePath>share\liblinphone_tester\certificates\client\cert3.pem</PackagePath>
+      <Modified>2022-11-25T13:36:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\certificates\client\key.pem">
+      <PackagePath>share\liblinphone_tester\certificates\client\key.pem</PackagePath>
+      <Modified>2022-11-25T13:36:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\certificates\client\key2-signed-by-other-ca.pem">
+      <PackagePath>share\liblinphone_tester\certificates\client\key2-signed-by-other-ca.pem</PackagePath>
+      <Modified>2022-11-25T13:36:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\certificates\client\key2.pem">
+      <PackagePath>share\liblinphone_tester\certificates\client\key2.pem</PackagePath>
+      <Modified>2022-11-25T13:36:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\certificates\client\key3.pem">
+      <PackagePath>share\liblinphone_tester\certificates\client\key3.pem</PackagePath>
+      <Modified>2022-11-25T13:36:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\certificates\client\user1_cert.pem">
+      <PackagePath>share\liblinphone_tester\certificates\client\user1_cert.pem</PackagePath>
+      <Modified>2022-11-25T13:36:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\certificates\client\user1_key.pem">
+      <PackagePath>share\liblinphone_tester\certificates\client\user1_key.pem</PackagePath>
+      <Modified>2022-11-25T13:36:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\certificates\client\user1_multiple_aliases_cert.pem">
+      <PackagePath>share\liblinphone_tester\certificates\client\user1_multiple_aliases_cert.pem</PackagePath>
+      <Modified>2022-11-25T13:36:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\certificates\client\user1_multiple_aliases_key.pem">
+      <PackagePath>share\liblinphone_tester\certificates\client\user1_multiple_aliases_key.pem</PackagePath>
+      <Modified>2022-11-25T13:36:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\certificates\client\user2_cert.pem">
+      <PackagePath>share\liblinphone_tester\certificates\client\user2_cert.pem</PackagePath>
+      <Modified>2022-11-25T13:36:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\certificates\client\user2_CN_cert.pem">
+      <PackagePath>share\liblinphone_tester\certificates\client\user2_CN_cert.pem</PackagePath>
+      <Modified>2022-11-25T13:36:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\certificates\client\user2_CN_key.pem">
+      <PackagePath>share\liblinphone_tester\certificates\client\user2_CN_key.pem</PackagePath>
+      <Modified>2022-11-25T13:36:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\certificates\client\user2_key.pem">
+      <PackagePath>share\liblinphone_tester\certificates\client\user2_key.pem</PackagePath>
+      <Modified>2022-11-25T13:36:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\certificates\client\user2_revoked_cert.pem">
+      <PackagePath>share\liblinphone_tester\certificates\client\user2_revoked_cert.pem</PackagePath>
+      <Modified>2022-11-25T13:36:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\certificates\client\user2_revoked_key.pem">
+      <PackagePath>share\liblinphone_tester\certificates\client\user2_revoked_key.pem</PackagePath>
+      <Modified>2022-11-25T13:36:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\certificates\cn\agent.pem">
+      <PackagePath>share\liblinphone_tester\certificates\cn\agent.pem</PackagePath>
+      <Modified>2022-11-25T13:36:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\certificates\cn\cafile.pem">
+      <PackagePath>share\liblinphone_tester\certificates\cn\cafile.pem</PackagePath>
+      <Modified>2022-11-25T13:36:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\lime_tester\data\cacert.pem">
+      <PackagePath>share\lime_tester\data\cacert.pem</PackagePath>
+      <Modified>2022-11-25T13:36:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\lime_tester\data\sip5.linphone.org.selfsigned-cert.pem">
+      <PackagePath>share\lime_tester\data\sip5.linphone.org.selfsigned-cert.pem</PackagePath>
+      <Modified>2022-11-25T13:36:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\lime_tester\data\x3dh-cert.pem">
+      <PackagePath>share\lime_tester\data\x3dh-cert.pem</PackagePath>
+      <Modified>2022-11-25T13:36:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\Linphone\rootca.pem">
+      <PackagePath>share\Linphone\rootca.pem</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\certificates\altname\openssl-altname.cnf">
+      <PackagePath>share\liblinphone_tester\certificates\altname\openssl-altname.cnf</PackagePath>
+      <Modified>2022-11-25T13:36:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\certificates\cn\openssl-cn.cnf">
+      <PackagePath>share\liblinphone_tester\certificates\cn\openssl-cn.cnf</PackagePath>
+      <Modified>2022-11-25T13:36:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\db\chatrooms.db">
+      <PackagePath>share\liblinphone_tester\db\chatrooms.db</PackagePath>
+      <Modified>2022-11-25T13:36:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\db\friends.db">
+      <PackagePath>share\liblinphone_tester\db\friends.db</PackagePath>
+      <Modified>2022-11-25T13:36:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\db\linphone.db">
+      <PackagePath>share\liblinphone_tester\db\linphone.db</PackagePath>
+      <Modified>2022-11-25T13:36:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\db\messages.db">
+      <PackagePath>share\liblinphone_tester\db\messages.db</PackagePath>
+      <Modified>2022-11-25T13:36:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\images\linphone.svg">
+      <PackagePath>share\liblinphone_tester\images\linphone.svg</PackagePath>
+      <Modified>2022-11-25T13:36:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\rcfiles\assistant_create.rc">
+      <PackagePath>share\liblinphone_tester\rcfiles\assistant_create.rc</PackagePath>
+      <Modified>2022-11-25T13:36:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\sipp\call_invite_200ok_without_contact_header.xml">
+      <PackagePath>share\liblinphone_tester\sipp\call_invite_200ok_without_contact_header.xml</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\sipp\call_with_audio_mline_before_video_in_sdp.xml">
+      <PackagePath>share\liblinphone_tester\sipp\call_with_audio_mline_before_video_in_sdp.xml</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\sipp\call_with_multiple_audio_mline_in_sdp.xml">
+      <PackagePath>share\liblinphone_tester\sipp\call_with_multiple_audio_mline_in_sdp.xml</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\sipp\call_with_multiple_video_mline_in_sdp.xml">
+      <PackagePath>share\liblinphone_tester\sipp\call_with_multiple_video_mline_in_sdp.xml</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\sipp\call_with_transfer_incoming_ringing_call.xml">
+      <PackagePath>share\liblinphone_tester\sipp\call_with_transfer_incoming_ringing_call.xml</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\sipp\call_with_video_mline_before_audio_in_sdp.xml">
+      <PackagePath>share\liblinphone_tester\sipp\call_with_video_mline_before_audio_in_sdp.xml</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\sipp\sip_update_within_icoming_reinvite_with_no_sdp.xml">
+      <PackagePath>share\liblinphone_tester\sipp\sip_update_within_icoming_reinvite_with_no_sdp.xml</PackagePath>
+      <Modified>2022-12-06T20:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\source\repos\App2\App2\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2024-08-07T15:49:40.647</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\sounds\ahbahouaismaisbon.wav">
+      <PackagePath>share\liblinphone_tester\sounds\ahbahouaismaisbon.wav</PackagePath>
+      <Modified>2022-11-25T13:36:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\sounds\continuous_48000_stereo.wav">
+      <PackagePath>share\liblinphone_tester\sounds\continuous_48000_stereo.wav</PackagePath>
+      <Modified>2022-11-25T13:36:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\sounds\hello44100.wav">
+      <PackagePath>share\liblinphone_tester\sounds\hello44100.wav</PackagePath>
+      <Modified>2022-11-25T13:36:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\sounds\hello8000.wav">
+      <PackagePath>share\liblinphone_tester\sounds\hello8000.wav</PackagePath>
+      <Modified>2022-11-25T13:36:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\sounds\hello8000_mkv_ref.wav">
+      <PackagePath>share\liblinphone_tester\sounds\hello8000_mkv_ref.wav</PackagePath>
+      <Modified>2022-11-25T13:36:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\sounds\oldphone.wav">
+      <PackagePath>share\liblinphone_tester\sounds\oldphone.wav</PackagePath>
+      <Modified>2022-11-25T13:36:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\sounds\ringback.wav">
+      <PackagePath>share\liblinphone_tester\sounds\ringback.wav</PackagePath>
+      <Modified>2022-11-25T13:36:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\sounds\vrroom.wav">
+      <PackagePath>share\liblinphone_tester\sounds\vrroom.wav</PackagePath>
+      <Modified>2022-11-25T13:36:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\sounds\linphone\hello16000.wav">
+      <PackagePath>share\sounds\linphone\hello16000.wav</PackagePath>
+      <Modified>2022-11-25T13:36:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\sounds\linphone\hello8000.wav">
+      <PackagePath>share\sounds\linphone\hello8000.wav</PackagePath>
+      <Modified>2022-11-25T13:36:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\sounds\linphone\incoming_chat.wav">
+      <PackagePath>share\sounds\linphone\incoming_chat.wav</PackagePath>
+      <Modified>2022-11-25T13:36:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\sounds\linphone\ringback.wav">
+      <PackagePath>share\sounds\linphone\ringback.wav</PackagePath>
+      <Modified>2022-11-25T13:36:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\sounds\linphone\rings\oldphone-mono.wav">
+      <PackagePath>share\sounds\linphone\rings\oldphone-mono.wav</PackagePath>
+      <Modified>2022-11-25T13:36:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\sounds\linphone\toy-mono.wav">
+      <PackagePath>share\sounds\linphone\toy-mono.wav</PackagePath>
+      <Modified>2022-11-25T13:36:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\sounds\hello8000.mkv">
+      <PackagePath>share\liblinphone_tester\sounds\hello8000.mkv</PackagePath>
+      <Modified>2022-11-25T13:36:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\sounds\sintel_trailer_opus_h264.mkv">
+      <PackagePath>share\liblinphone_tester\sounds\sintel_trailer_opus_h264.mkv</PackagePath>
+      <Modified>2022-11-25T13:36:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\sounds\sintel_trailer_opus_vp8.mkv">
+      <PackagePath>share\liblinphone_tester\sounds\sintel_trailer_opus_vp8.mkv</PackagePath>
+      <Modified>2022-11-25T13:36:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\liblinphone_tester\sounds\sintel_trailer_pcmu_h264.mkv">
+      <PackagePath>share\liblinphone_tester\sounds\sintel_trailer_pcmu_h264.mkv</PackagePath>
+      <Modified>2022-11-25T13:36:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\sounds\linphone\dont_wait_too_long.mkv">
+      <PackagePath>share\sounds\linphone\dont_wait_too_long.mkv</PackagePath>
+      <Modified>2022-11-25T13:36:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\sounds\linphone\rings\four_hands_together.mkv">
+      <PackagePath>share\sounds\linphone\rings\four_hands_together.mkv</PackagePath>
+      <Modified>2022-11-25T13:36:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\sounds\linphone\rings\house_keeping.mkv">
+      <PackagePath>share\sounds\linphone\rings\house_keeping.mkv</PackagePath>
+      <Modified>2022-11-25T13:36:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\sounds\linphone\rings\its_a_game.mkv">
+      <PackagePath>share\sounds\linphone\rings\its_a_game.mkv</PackagePath>
+      <Modified>2022-11-25T13:36:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\sounds\linphone\rings\leaving_dreams.mkv">
+      <PackagePath>share\sounds\linphone\rings\leaving_dreams.mkv</PackagePath>
+      <Modified>2022-11-25T13:36:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\sounds\linphone\rings\notes_of_the_optimistic.mkv">
+      <PackagePath>share\sounds\linphone\rings\notes_of_the_optimistic.mkv</PackagePath>
+      <Modified>2022-11-25T13:36:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\sounds\linphone\rings\soft_as_snow.mkv">
+      <PackagePath>share\sounds\linphone\rings\soft_as_snow.mkv</PackagePath>
+      <Modified>2022-11-25T13:36:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\sounds\linphone\silence.mkv">
+      <PackagePath>share\sounds\linphone\silence.mkv</PackagePath>
+      <Modified>2022-11-25T13:36:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\lime_tester\data\pattern_getSelfIk.C25519.sqlite3">
+      <PackagePath>share\lime_tester\data\pattern_getSelfIk.C25519.sqlite3</PackagePath>
+      <Modified>2022-11-25T13:36:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\lime_tester\data\pattern_getSelfIk.C448.sqlite3">
+      <PackagePath>share\lime_tester\data\pattern_getSelfIk.C448.sqlite3</PackagePath>
+      <Modified>2022-11-25T13:36:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\.nuget\packages\linphonesdk\5.1.73\content\linphonecs\LinphoneWrapper.cs">
+      <PackagePath>share\linphonecs\LinphoneWrapper.cs</PackagePath>
+      <Modified>2022-12-06T20:26:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\source\repos\App2\App2\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2024-08-02T13:37:40.077</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\source\repos\App2\App2\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-08-02T13:37:40.079</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\source\repos\App2\App2\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-08-02T13:37:40.080</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\source\repos\App2\App2\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-08-02T13:37:40.080</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\source\repos\App2\App2\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-08-02T13:37:40.081</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\source\repos\App2\App2\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-08-02T13:37:40.081</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\source\repos\App2\App2\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-08-02T13:37:40.082</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\source\repos\App2\App2\bin\x64\Debug\App2.xr.xml">
+      <PackagePath>App2.xr.xml</PackagePath>
+      <Modified>2024-08-07T15:57:19.446</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\source\repos\App2\App2\bin\x64\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2024-08-07T16:06:49.453</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\source\repos\App2\App2\bin\x64\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2024-08-07T16:06:49.453</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.22621.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+      <Modified>2024-02-21T14:46:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\source\repos\App2\App2\bin\x64\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2024-08-07T15:57:47.786</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cher3\source\repos\App2\App2\bin\x64\Debug\Core\App2.exe">
+      <PackagePath>App2.exe</PackagePath>
+      <Modified>2024-08-07T16:06:50.084</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.31331.1</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.31331.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.31331.1</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.31331.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.31331.1</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.31331.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.31327.1</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.31327.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.31327.1</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.31327.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.31327.1</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.31327.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.33519.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.33519.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.33519.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.33519.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.33519.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.33519.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.33519.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.33519.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

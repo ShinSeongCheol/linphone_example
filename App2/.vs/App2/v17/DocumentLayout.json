@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\cher3\\source\\repos\\App2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3C4ED726-6B2A-41E2-B08C-00E0978240B5}|App2\\App2.csproj|c:\\users\\cher3\\source\\repos\\app2\\app2\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C4ED726-6B2A-41E2-B08C-00E0978240B5}|App2\\App2.csproj|solutionrelative:app2\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C4ED726-6B2A-41E2-B08C-00E0978240B5}|App2\\App2.csproj|c:\\users\\cher3\\source\\repos\\app2\\app2\\service\\coreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C4ED726-6B2A-41E2-B08C-00E0978240B5}|App2\\App2.csproj|solutionrelative:app2\\service\\coreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C4ED726-6B2A-41E2-B08C-00E0978240B5}|App2\\App2.csproj|c:\\users\\cher3\\source\\repos\\app2\\app2\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3C4ED726-6B2A-41E2-B08C-00E0978240B5}|App2\\App2.csproj|solutionrelative:app2\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C4ED726-6B2A-41E2-B08C-00E0978240B5}|App2\\App2.csproj|c:\\users\\cher3\\source\\repos\\app2\\app2\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C4ED726-6B2A-41E2-B08C-00E0978240B5}|App2\\App2.csproj|solutionrelative:app2\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\cher3\\source\\repos\\App2\\App2\\MainPage.xaml",
+              "RelativeDocumentMoniker": "App2\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\cher3\\source\\repos\\App2\\App2\\MainPage.xaml",
+              "RelativeToolTip": "App2\\MainPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-07T15:56:48.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\cher3\\source\\repos\\App2\\App2\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "App2\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\cher3\\source\\repos\\App2\\App2\\MainPage.xaml.cs",
+              "RelativeToolTip": "App2\\MainPage.xaml.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAACYAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T15:55:35.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\cher3\\source\\repos\\App2\\App2\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App2\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\cher3\\source\\repos\\App2\\App2\\App.xaml.cs",
+              "RelativeToolTip": "App2\\App.xaml.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAIwDsAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T15:52:00.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CoreService.cs",
+              "DocumentMoniker": "C:\\Users\\cher3\\source\\repos\\App2\\App2\\Service\\CoreService.cs",
+              "RelativeDocumentMoniker": "App2\\Service\\CoreService.cs",
+              "ToolTip": "C:\\Users\\cher3\\source\\repos\\App2\\App2\\Service\\CoreService.cs",
+              "RelativeToolTip": "App2\\Service\\CoreService.cs",
+              "ViewState": "AQIAAKoAAAAAAAAAAAASwL0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T15:51:11.508Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
